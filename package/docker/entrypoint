@@ -18,7 +18,7 @@ function usage {
 		--no-config		| do not try to configure TheHive (add secret and elasticsearch)
 		--no-config-secret	| do not add random secret to configuration
 		--no-config-es		| do not add elasticsearch hosts to configuration
-		--es-hosts <esconfig>	| use this string to configure elasticsearch hosts (format: ["host1:9300","host2:9300"])
+		--es-hosts <esconfig>	| use this string to configure elasticsearch hosts (format: ["host1","host2"])
 		--es-hostname <host>	| resolve this hostname to find elasticseach instances
 		--secret <secret>	| secret to secure sessions
 		--cortex-proto <proto>	| define protocol to connect to Cortex (default: http)
